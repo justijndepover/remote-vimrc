@@ -4,5 +4,5 @@ This following line can be executed in your command-line inside Vim. It download
 Useful on servers where you cannot or don't want to store a vimrc file.
 
 ```sh
-let @a = system('curl -s https://github.com/justijndepover/remote-vimrc/.vimrc') | execute @a | echo 'Configuration loaded'
+let @a = system('curl -s https://raw.githubusercontent.com/justijndepover/remote-vimrc/refs/heads/master/.vimrc') | execute @a | echo 'Configuration loaded'
 ```
